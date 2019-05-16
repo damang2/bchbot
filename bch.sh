@@ -10,6 +10,7 @@ pkg install python -y
 pip install --upgrade pip
 pip install -r requirements.txt
 rm -rf telethon
+clear
 unzip telethon.zip 
 
 echo
