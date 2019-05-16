@@ -9,7 +9,8 @@ apt upgrade -y
 pkg install python -y
 pip install --upgrade pip
 pip install -r requirements.txt
-unzip telethon.zip -A
+rm -rf telethon
+unzip telethon.zip 
 
 echo
 echo -e "\e[1n Subscribe to Termux Tricks & Tut"
